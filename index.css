@@ -24,7 +24,6 @@ html, body {
 .my-data {
     display: flex;
     flex-direction: column;
-    border-radius: 0.2rem;
     width:100%;
     height: 30%
 }
@@ -86,34 +85,34 @@ html, body {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    padding: 10px 10px 10px 3em;
+    padding: 10px 10px 10px 1em;
+    flex:1;
+    justify-content: center
 }
-.content-header {
+.skill-content{
+    font-size: 1em
+}
+.project {
     font-weight: 500;
     margin-bottom: 5px;
 }
-.link {
+
+.project a:not(.link) {
     text-decoration: none;
     color: #515cff;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
-.content-header a:not(.link) {
-    text-decoration: none;
-    color: #515cff;
-    font-size: 0.8rem;
-}
-.content-header a:hover {
+.project a:hover {
     color: #575ce0;
 }
-.content-body {
+.skills {
     color: #878787;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
-.content-project {
-    font-size: 0.8rem;
-    margin-bottom: 5px;
+.project-wrap{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
 }
-.content-footer {
-    font-size: 0.8rem;
-    margin-top: 10px;
-}
+
