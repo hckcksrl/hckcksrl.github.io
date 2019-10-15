@@ -4,6 +4,10 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
@@ -11,7 +15,7 @@
         <div class="my-data">
             <div class="wrap">
                 <div class="headers">
-                    <div class="left-header-icon">
+                    <div class="header-profile">
                         <img src="hckcksrl.jpeg" />
                     </div>
                     <div class="header-name">
@@ -19,7 +23,7 @@
                         <span>Hckcksrl</span>
                     </div>
                 </div>
-                <div style="margin-left: 50px;display: flex;flex:2;justify-content: center;flex-direction: column">
+                <div style="margin-left: 50px;display: flex;flex:1;justify-content: center;flex-direction: column">
                     <div style="margin:10px"><i class="fas fa-home" style="margin-right: 10px"></i><span>대전광역시</span></div>
                     <div style="margin:10px"><i class="fas fa-phone" style="margin-right: 10px"></i><span>010-9329-4257</span></div>
                     <div style="margin:10px"><i class="far fa-envelope" style="margin-right: 10px"></i><span>hckcksrl@gmail.com</span></div>
@@ -32,69 +36,78 @@
         <div style="display: flex;flex-direction: row;width: 100%;height: 70%;padding-top: 50px;">
             <div style="flex: 1;display: flex;;padding-left: 20px;flex-direction: column">
                 <div style="flex:1">
-                <div class="right-body-title">
-                    <div class="right-body-title-icon">
+                <div class="title">
+                    <div class="title-icon">
                         <i class="far fa-address-card"></i>
                     </div>
-                    <div class="right-body-title-desc">
+                    <div class="title-content">
                         ABOUT
                     </div>
                 </div>
-                <div class="right-body-content">
+                <div class="content">
                   <span style="margin-bottom: 10px;">서버 개발자</span>
                   <span>충남대학교 졸업</span>
                 </div>
                     </div>
                 <!-- Work Experience -->
                 <div style="flex: 1">
-                <div class="right-body-title">
-                    <div class="right-body-title-icon">
+                <div class="title">
+                    <div class="title-icon">
                         <i class="far fa-building"></i>
                     </div>
-                    <div class="right-body-title-desc work-experience">
+                    <div class="title-content">
                         WORK EXPERIENCE
                     </div>
                 </div>
-                <div class="right-body-content">
+                <div class="content">
                     <span class="content-header">호랑이의 꽃밭</span> 
                     <span class="content-body">데모 앱 개발</span>
                     <span class="content-body">2019/3 - 2019/5</span>
                 </div>
                     </div>
-                <div style="flex: 1">
-                   <div class="right-body-title">
-                    <div class="right-body-title-icon">
+                <div style="flex: 2">
+                   <div class="title">
+                    <div class="title-icon">
                         <i class="fab fa-python"></i>
                     </div>
-                    <div class="right-body-title-desc work-experience">
+                    <div class="title-content">
                         Skills
                     </div>
                 </div>
-                <div class="right-body-content">
-                    <li><span class="content-header">Python(Django)</span> </li>
-                    <li><span class="content-header">Reactjs</span></li>
-                    <li><span class="content-header">React-Native</span> </li>
-                    <li><span class="content-header">Graphql</span> </li>
-                    <li><span class="content-header">Apollo</span>  </li>
+                <div class="content">
+                    <ul>
+                        <li><span>Python</span></li>
+                        <ul>
+                            <li><span class="content-header">Django</span> </li>
+                        </ul>
+                        <li><span>JavaScript</span></li>
+                        <ul>
+                            <li><span class="content-header">Reactjs</span></li>
+                            <li><span class="content-header">React-Native</span> </li>
+                        </ul>
+                        <li><span class="content-header">Graphql</span> </li>
+                        <li><span class="content-header">Apollo</span>  </li>
+                        <li><span class="content-header">Redis</span></li>
+                    </ul>
                 </div>
                     </div>
             </div>
             <div style="flex: 1;display: flex;flex-direction: column">
-                <div class="right-body-title">
-                    <div class="right-body-title-icon">
+                <div class="title">
+                    <div class="title-icon">
                         <i class="fas fa-project-diagram"></i>
                     </div>
-                    <div class="right-body-title-desc project">
+                    <div class="title-content">
                         PROJECT
                     </div>
                 </div>
-                <div class="right-body-content" style="flex:1;justify-content: center">
+                <div class="content" style="flex:1;justify-content: center">
                     <span class="content-header">
                     <span>가상화폐 시세 챗봇</span>
                     <a href="http://pf.kakao.com/_VfxoWT" target="_blank"> Click</a></span>
                     <span class="content-body">Python / Django / Kakao Openbuilder</span>
                 </div>
-                <div class="right-body-content" style="flex:1;justify-content: center">
+                <div class="content" style="flex:1;justify-content: center">
                     <span class="content-header">
                     <span>가상화폐 시세 알림 사이트</span>
                     <a href="https://github.com/hckcksrl/coin_web" target="_blank">Front , </a>
@@ -102,25 +115,25 @@
                     </span>
                     <span class="content-body">Python / Django / Redis / 거래소 Open API</span>
                 </div>
-                <div class="right-body-content" style="flex:1;justify-content: center">
+                <div class="content" style="flex:1;justify-content: center">
                     <span class="content-header">
                     <span>한국 박스오피스 알림 챗봇</span>
                     <a href="http://pf.kakao.com/_xowdWT" target="_blank"> Click</a></span>
                     <span class="content-body">공공데이터베이스(박스오피스) / Django / KaKao Openbuilder</span>
                 </div>
-                <div class="right-body-content" style="flex:1;justify-content: center">
+                <div class="content" style="flex:1;justify-content: center">
                     <span class="content-header">
                     <span>리그오브레전드 전적검색 챗봇</span>
                     <a href="http://pf.kakao.com/_xkxmLiT" target="_blank"> Click</a></span>
                     <span class="content-body">Riot API / Django / KaKao Openbuilder</span>
                 </div>
-                <div class="right-body-content" style="flex:1;justify-content: center">
+                <div class="content" style="flex:1;justify-content: center">
                     <span class="content-header">
                     <span>유기견 정보 알림 챗봇</span>
                     <a href="https://www.facebook.com/talknlaugh7/" target="_blank"> Click</a></span>
                     <span class="content-body">Facebook API / Node</span>
                 </div>
-                <div class="right-body-content" style="flex:1;justify-content: center">
+                <div class="content" style="flex:1;justify-content: center">
                     <span class="content-header">
                     <span class="content-header">호랑이의 꽃밭 데모앱 개발</span>
                     <a href="https://github.com/hckcksrl/flower-front" target="_blank">Front , </a>
